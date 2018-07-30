@@ -1,0 +1,55 @@
+VERSION 4 
+
+var todolist = { 
+  todos: [],
+  displayTodos: function() {
+    console.log('My Todos', this.todos);
+  },
+  addTodo: function(todoText) {
+    this.todos.push({
+      todoText: todoText,
+      completed: false
+    });
+    
+
+  changeTodo: function(position, todoText) {
+    // this.todos[position] = newValue;
+    this.todos[position].todoText = todoText;
+    this.displayTodos();
+  },
+  deleteTodo: function(position) {
+  todos.splice(position, 1);
+  displayTodos();
+}
+  }
+};
+
+function deleteTodo(position) {
+  todos.splice(position, 1);
+  displayTodos();
+  },
+  toggleCompleted: function(position) {
+    var todo =
+  }
+ this.todos[position];
+ todo.completed = !todo.completed; 
+ this.displayTodos();
+{
+  todoText: 'item 1',
+  completed: false // Boolean true or false 
+}
+
+VERSION 5 
+
+i = 0 // Initialization 
+Say "hey" if i < 3 // Condition
+Increase i by 1 // final 0 expression
+
+0 "hey"
+1 "hey" 
+2 "hey"
+3 
+
+for (var i = 0; i < 3; i++) {
+    console.log("hey");
+}
